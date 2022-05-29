@@ -1,0 +1,34 @@
+.more-link{
+	transition: all 5s;
+	color: $link;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+.single-content{
+	h2{
+		margin: 0;
+	}
+}
+.date {
+	text-transform: uppercase;
+}
+.share{
+	ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li{
+			margin-right: 15px;
+			display: inline-block;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		.fb-share-button{
+			span{
+				vertical-align: inherit !important;
+			}
+		}
+	}
+}

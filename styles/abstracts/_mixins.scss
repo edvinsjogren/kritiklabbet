@@ -1,0 +1,20 @@
+.col-lg-20c{
+		position: relative;
+		min-height: 1px;
+		padding-right: 16px;
+		padding-left: 16px;
+		width: 100%
+}
+.col-lg-20c{
+		flex: 0 0 20%;
+		max-width: 20%;
+	@media (max-width: $screen-lg-max){
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+	@media (max-width: $screen-md-max){
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+

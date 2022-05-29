@@ -1,0 +1,44 @@
+.hr-b{
+	hr{
+		background: $black;
+		height: 1px;
+		opacity: 0.5;
+	}
+}
+.submit{
+	background: transparent;
+	border: 1px solid $black;
+	margin-top: 1em;
+	transition: all .5s;
+	&:hover{
+		background: rgba(000,000,000,0.8);
+		color: $white;
+	}
+}
+.comment-form-comment, .comment-form-author, .comment-form-email{
+	display: block;
+	label{
+		max-width: 120px;
+		width: 100%;
+		color: $black;
+	}
+}
+.comment-form-url{
+	display: none !important;
+}
+.news-title, .nes-excerpt{
+	word-break: break-word;
+}
+.copywrite{
+	font-style: italic;
+	color: grey;
+	font-size: 13px;
+}
+.post-content{
+	overflow: auto;
+	img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}

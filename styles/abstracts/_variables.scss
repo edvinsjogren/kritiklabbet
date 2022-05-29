@@ -1,0 +1,40 @@
+
+// SASS Variables
+// -------------------------------------//
+
+// Typography
+//
+// Load fonts from this directory.
+$font-path: "fonts";
+
+// Extra small screen / phone
+$screen-xs-min: 0 !default;
+
+// Small screen / phone
+$screen-sm-min: 544px !default;
+
+// Medium screen / tablet
+$screen-md-min: 768px !default;
+
+// Large screen / desktop
+$screen-lg-min: 992px !default;
+
+// Extra large screen / wide desktop
+$screen-xl-min: 1200px !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+$screen-lg-max: ($screen-xl-min - 1) !default;
+
+// Custom variables
+$divider-color: #ddddda;
+$image-path: "images";
+
+$grid-columns: 12;
+
+// Custom color
+$link   : #009DD9;
+$white  : #fff;
+$black  : #000;
